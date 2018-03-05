@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Operadores Aritm&eacute;meticos</title>
+	<LINK REL=StyleSheet HREF="style.css" TYPE="text/css">
+		<title>CALCULADORA</title>
 	</head>
 	<body>
-		<h1>Calculadora</h1>
+		<center>
+		<h1 class="caja">Calculadora</h1>
+		<div class="form-style-9">
 		<form action="resultado.php" method="post">
 			<select name="operador">
 				<option value="suma">Suma</option>
@@ -14,10 +17,13 @@
 			</select><br />
 			Ingresa tu primer n&uacute;mero:<br />
 			<input type="text" name="valor1"><br />
-			Ingresa tu segundo valor:<br />
+			Ingresa tu segundo n&uacute;mero:<br />
 			<input type="text" name="valor2"><br>
-			<input type="reset" value="Borrar">
-			<input type="submit" value="Enviar">
+			<br>
+			<button class="boton_borrar" type="reset" value="Borrar">BORRAR</button>
+			<button class="boton_enviar" type="submit" value="Enviar">ENVIAR</button>
 		</form>
+		</div>
+		</center>
 	</body>
 </html>
